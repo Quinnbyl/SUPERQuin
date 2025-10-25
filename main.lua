@@ -46,8 +46,8 @@ buyBtn.Text = "Buy All Items"
 
 -- Actions
 wsBtn.MouseButton1Click:Connect(function()
-    p.Character.Humanoid.WalkSpeed = 505
-    print("WalkSpeed set to 505")
+    p.Character.Humanoid.WalkSpeed = 99999
+    print("WalkSpeed set to 99999")
 end)
 
 climbBtn.MouseButton1Click:Connect(function()
@@ -57,7 +57,7 @@ end)
 
 dupeBtn.MouseButton1Click:Connect(function()
     print("Dupe Souvenir executed!") 
-    -- tambahkan logika dupe di sini kalau kamu punya nama item / eventnya
+    -- tambahkan logika dupe di sini kalau kamu punya nama item / eventnya Souvenir
     -- Bag 
     -- Pet
     -- Souvenir
@@ -66,4 +66,5 @@ end)
 buyBtn.MouseButton1Click:Connect(function()
     print("Buying all items executed!")
     -- tambahkan logika pembelian item di sini
+    -- Pet 1999
 end)
