@@ -1,4 +1,5 @@
 -- Simple GUI Speed + Dupe + Buy Items
+--== Climb & Jump Tower Enhanced Script ==--
 local p = game:GetService("Players").LocalPlayer
 local pg = p:WaitForChild("PlayerGui")
 local gui = Instance.new("ScreenGui", pg)
@@ -45,18 +46,21 @@ buyBtn.Text = "Buy All Items"
 
 -- Actions
 wsBtn.MouseButton1Click:Connect(function()
-    p.Character.Humanoid.WalkSpeed = 50
-    print("WalkSpeed set to 50")
+    p.Character.Humanoid.WalkSpeed = 505
+    print("WalkSpeed set to 505")
 end)
 
 climbBtn.MouseButton1Click:Connect(function()
-    p.Character.Humanoid.ClimbSpeed = 40
-    print("ClimbSpeed set to 40")
+    p.Character.Humanoid.ClimbSpeed = 404
+    print("ClimbSpeed set to 404")
 end)
 
 dupeBtn.MouseButton1Click:Connect(function()
     print("Dupe Souvenir executed!") 
     -- tambahkan logika dupe di sini kalau kamu punya nama item / eventnya
+    -- Bag 
+    -- Pet
+    -- Souvenir
 end)
 
 buyBtn.MouseButton1Click:Connect(function()
