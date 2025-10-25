@@ -51,8 +51,8 @@ wsBtn.MouseButton1Click:Connect(function()
 end)
 
 climbBtn.MouseButton1Click:Connect(function()
-    p.Character.Humanoid.ClimbSpeed = 100
-    print("ClimbSpeed set to 100")
+    p.Character.Humanoid.ClimbSpeed = 10000
+    print("ClimbSpeed set to 10000")
 end)
 
 dupeBtn.MouseButton1Click:Connect(function()
