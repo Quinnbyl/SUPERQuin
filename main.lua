@@ -3,7 +3,7 @@
 local p = game:GetService("Players").LocalPlayer
 local pg = p:WaitForChild("PlayerGui")
 local gui = Instance.new("ScreenGui", pg)
-gui.Name = "SimpleHub"
+gui.Name = "QUINN MOD"
 
 local frame = Instance.new("Frame", gui)
 frame.Size = UDim2.new(0, 250, 0, 300)
@@ -57,10 +57,10 @@ end)
 
 dupeBtn.MouseButton1Click:Connect(function()
     print("Dupe Souvenir executed!") 
-    -- tambahkan logika dupe di sini kalau kamu punya nama item / eventnya Souvenir
+    -- Gold Scooter Buddy
     -- Bag 
     -- Pet
-    -- Souvenir
+    -- Gold Scooter Buddy
 end)
 
 buyBtn.MouseButton1Click:Connect(function()
